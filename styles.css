@@ -1,0 +1,88 @@
+a {
+   text-decoration: none;
+}
+
+ul {
+   list-style: none;
+   font-family: mulish;
+}
+
+.navbar {
+   margin-top: 64px;
+   margin-left: 120px;
+   margin-right: 123px;
+}
+
+.navbar .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.navbar .container .logo {
+   color: #89C5CC;
+   font-family: inter;
+   font-weight: bold;
+}
+
+.navbar .main-menu ul{
+   display: flex;
+   color: #1F1534;
+
+}
+
+.navbar .main-menu ul li a {
+   color: #1F1534;
+   padding: 0 25px;
+}
+
+a.home {
+   font-weight: bold;
+}
+
+/* hero */
+
+.hero-heading {
+   font-family: mulish;
+   font-size: 46px;;
+}
+
+.hero-paragraph {
+   width: 560px;
+   font-family: 'open sans';
+}
+
+.container {
+   display: flex;
+   margin-right: 123px;
+   margin-left: 120px;
+}
+.exclusive {
+   color: #89C5CC;
+}
+
+.paragraph-highlight {
+   font-weight: bold;
+}
+
+button.image-button {
+   display: flex;               /* To align image and text side by side */
+   align-items: center;         /* Vertically center image and text */
+   padding: 10px 20px;
+   background-color: #69B99D;   /* Button background color */
+   border: none;
+   color: white;                /* Text color */
+   cursor: pointer;
+   font-size: 16px;
+   border-radius: 5px;          /* Rounded corners */
+}
+
+button.image-button img {
+   width: 20px;                 /* Image width */
+   height: 20px;                /* Image height */
+   margin-right: 10px;          /* Space between image and text */
+}
+
+button.image-button span {
+   white-space: nowrap;         /* Prevent text from wrapping */
+}
